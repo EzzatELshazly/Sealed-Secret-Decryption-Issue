@@ -10,6 +10,8 @@ no key could decrypt secret
 ```
 <img width="1527" height="370" alt="kubeseal error" src="https://github.com/user-attachments/assets/0d5b4634-be9a-4d42-b3f1-9a0e1b987fbf" />
 
+------
+
 <img width="910" height="353" alt="image" src="https://github.com/user-attachments/assets/c8364207-18ce-403e-a3c3-4dabba1d136b" />
 
 
