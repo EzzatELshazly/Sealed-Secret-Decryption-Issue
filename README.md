@@ -67,7 +67,7 @@ kubeseal --format=yaml   --cert=cluster-cert.pem   --scope cluster-wide   < /tmp
 # Step 4: Apply the sealed secret
 kubectl apply -f shopbrain-mcp-mongodb-sealedsecret.yaml
 ```
-## Or copy the file adn paste it into your repo if you are using ArgoCD and click sync
+## Or copy the file and paste it into your repo if you are using ArgoCD and click sync
 ---
 
 <img width="1512" height="608" alt="kube seal resolved" src="https://github.com/user-attachments/assets/f7d2c046-07b5-4f26-9ba1-61e8af6d5bf1" />
