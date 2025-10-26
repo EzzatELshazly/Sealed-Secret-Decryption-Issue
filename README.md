@@ -8,9 +8,10 @@ While applying a new **SealedSecret** file, the following error occurred:
 ```
 no key could decrypt secret 
 ```
-![alt text](image.png)
+<img width="1527" height="370" alt="kubeseal error" src="https://github.com/user-attachments/assets/0d5b4634-be9a-4d42-b3f1-9a0e1b987fbf" />
 
-![alt text](<kubeseal error-1.png>)
+<img width="910" height="353" alt="image" src="https://github.com/user-attachments/assets/c8364207-18ce-403e-a3c3-4dabba1d136b" />
+
 
 This happens when the secret is sealed with an outdated or mismatched certificate, or when it’s sealed without specifying **cluster-wide scope**.
 
@@ -66,7 +67,8 @@ kubectl apply -f shopbrain-mcp-mongodb-sealedsecret.yaml
 ```
 ## Or copy the file adn paste it into your repo if you are using ArgoCD and click sync
 ---
-![alt text](<kube seal resolved-1.png>)
+
+<img width="1512" height="608" alt="kube seal resolved" src="https://github.com/user-attachments/assets/f7d2c046-07b5-4f26-9ba1-61e8af6d5bf1" />
 
 ##  Tips
 - Always use `--scope cluster-wide` unless your controller requires namespace scope.  
